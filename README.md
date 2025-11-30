@@ -1,2 +1,166 @@
-# My_Portfolio
-hii, here i am to give my first project known as my portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Portfolio</title>
+    <link rel="stylesheet" href="PORT.css">
+</head>
+<body>
+     <div class="main-container">
+        <!-- sidebar -->
+     <div class="sidebar">
+
+        <!-- profile -->
+        <div class="profile">
+            <img src="download (2).jpeg" alt="">
+            <h2>Rishabh Patel</h2>
+            <p>Frontend Developer</p>
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+            <div class="email">
+                <h3 class="label">Email</h3>
+                <a href="mailto:rishabhrp2006@gmail.com" class="value">rishabhrp2006@gmail.com</a>
+            </div>
+            <div class="phone">
+                <h3 class="label">Phone</h3>
+                <a href="tel:9792892016" class="value">9792892016</a>
+            </div>
+            <div class="location">
+                <h3 class="label">Location</h3>
+                <p class="value">Banaras,Varanasi</p>
+            </div>
+        </div>
+
+        <!-- social -->
+         <div class="social">
+            <a href="https://x.com/RishVision"><img src="https://simpleicons.org/icons/x.svg" alt=""></a>
+            <a href="https://github.com/rishabh-web-ux/My-first-project.html"><img src="https://simpleicons.org/icons/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/rishabh-patel-069330381/"><img src="https://www.svgrepo.com/show/157006/linkedin.svg" alt=""></a>
+         </div>
+     </div>
+
+     <!-- main-content -->
+      <div class="main-content">
+
+        <!-- navigation -->
+         <div id="navigation">
+            <nav>
+            <a href="#about" class="active">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="Education">Education</a>
+            <a href="#portfolio">Portfolio</a>
+            </nav>
+         </div>
+
+        <!-- about me -->
+         <div id="about">
+            <h2 class="heading">About Me</h2>
+            <div class="line"></div>
+            <p class="content">I'm a passionate Frontend Developer who loves turning ideas into smooth, visually appealing digital experiences. I specialize in building responsive, user-friendly interfaces using modern web technologies like HTML, CSS, and JavaScript. I enjoy solving problems, crafting clean UI designs, and continuously learning new techniques to improve performance and usability. My goal is to create websites that not only look great but also feel intuitive and engaging for every user.</p>
+         </div>
+
+        <!-- Skills -->
+        <div id="Skills">
+            <h2 class="heading">Skills</h2>
+            <div class="line"></div>
+            <div class="grid-container">
+                <div class="items">
+                    <img src="https://simpleicons.org/icons/html5.svg" alt="">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="items">
+                    <img src="https://simpleicons.org/icons/css.svg" alt="">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="items">
+                    <img src="https://simpleicons.org/icons/javascript.svg" alt="">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="items">
+                    <img src="https://simpleicons.org/icons/react.svg" alt="">
+                    <h3>React</h3>
+                </div>
+                <div class="items">
+                    <img src="https://simpleicons.org/icons/git.svg" alt="">
+                    <h3>Git & Github</h3>
+                </div>
+                <div class="items">
+                    <img src="https://simpleicons.org/icons/typescript.svg" alt="">
+                    <h3>Typescript</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div id="Education">
+            <h2 class="heading">Education</h2>
+            <div class="line"></div>
+            <div class="edtech">
+                <div class="edfirst">
+                    <div class="year">2021-2022</div>
+                    <h3 class="High">High School</h3>
+                    <p class="School">Sunbeam Suncity</p>
+                    <p class="learning">I enjoy learning new skills, exploring new opportunities, and working on projects that challenge my creativity and problem-solving abilities. With a positive mindset and a strong willingness to grow, I'm looking forward to discovering my path and making meaningful contributions wherever I go.</p>
+                    <div class="goal"></div>
+                </div>
+                <div class="edsecond">
+                    <div>
+                         <div class="year">2023-2024</div>
+                    <h3 class="High">Intermidiate School</h3>
+                    <p class="School">Sunbeam Suncity</p>
+                    <p class="learning">I'm focused on developing new skills, exploring opportunities, and growing both personally and professionally. I enjoy learning, taking on challenges, and working on things that help me improve and shape my future. With dedication and a positive attitude, I'm excited to see where my hard work will take me next.</p>
+                    <div class="goal"></div>
+                    </div>
+                </div>
+                <div class="liner"></div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <h2 class="heading">Portfolio</h2>
+            <div class="line"></div>
+
+            <div class="project-container">
+                <div class="project">
+                    <img src="Future artificial intelligence robot and cyborg_ _ Premium Photo.jpeg" alt="">
+                    <div class="card">
+                        <h3>Portfolio Website</h3>
+                    <p>This portfolio showcases my work, growth, and journey ahead.</p>
+                    <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Future artificial intelligence robot and cyborg_ _ Premium Photo.jpeg" alt="">
+                    <div class="card">
+                        <h3>Portfolio Website</h3>
+                    <p>This portfolio showcases my work, growth, and journey ahead.</p>
+                    <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Future artificial intelligence robot and cyborg_ _ Premium Photo.jpeg" alt="">
+                    <div class="card">
+                        <h3>Portfolio Website</h3>
+                    <p>This portfolio showcases my work, growth, and journey ahead.</p>
+                    <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Future artificial intelligence robot and cyborg_ _ Premium Photo.jpeg" alt="">
+                    <div class="card">
+                        <h3>Portfolio Website</h3>
+                    <p>This portfolio showcases my work, growth, and journey ahead.</p>
+                    <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+     </div>
+</body>
+</html>
