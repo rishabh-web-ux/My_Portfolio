@@ -50,7 +50,7 @@
             <nav>
             <a href="#about" class="active">About</a>
             <a href="#Skills">Skills</a>
-            <a href="Education">Education</a>
+            <a href="#Education">Education</a>
             <a href="#portfolio">Portfolio</a>
             </nav>
          </div>
